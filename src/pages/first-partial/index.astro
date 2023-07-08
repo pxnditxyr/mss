@@ -1,0 +1,66 @@
+---
+import PartialsLayout from '../../layouts/PartialsLayout.astro';
+import { navItemsFirst } from '../../utils/navItems'
+
+---
+
+<PartialsLayout title="Primer Parcial" navItems={ navItemsFirst } bg="bg-first-index bg-cover">
+  <div class="flex flex-col items-center gap-4 p-3">
+    <div class="flex items-center justify-center p-8 rounded-3xl mt-5 bg-white bg-opacity-20">
+      <h1 class="text-6xl font-bold text-slate-700"> Primer Parcial </h1>
+    </div>
+    <div class="flex flex-wrap justify-center w-full gap-20">
+      <article class="max-w-sm border rounded-lg shadow bg-gray-800 border-gray-700">
+        <a href={ navItemsFirst[ 0 ].href }>
+          <img class="rounded-t-lg h-64 w-full" src="https://ionic.io/blog/wp-content/uploads/2019/01/Image-from-iOS.png" alt="model" />
+        </a>
+        <section class="p-5">
+          <a href={ navItemsFirst[ 0 ].href  }>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white"> { navItemsFirst[ 0 ].name } </h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-400 text-justify"> En el sentido amplio del termino, un modelo es “una representacion de un sistema desarrollada para un proposito especıfico”. <br /> Puesto que la finalidad de un modelo es ayudarnos a responder preguntas sobre un determinado sistema, el primer paso en la construccion de un modelo es definir cual es el sistema y cuales son las preguntas.</p>
+          <a href={ navItemsFirst[ 0 ].href } class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none bg-blue-600 hover:bg-blue-700 focus:ring-blue-800">
+            <span> Ver más </span>
+            <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+            </svg>
+          </a>
+        </section>
+      </article>
+      <article class="max-w-sm border rounded-lg shadow bg-gray-800 border-gray-700">
+        <a href={ navItemsFirst[ 1 ].href }>
+          <img class="rounded-t-lg h-64 w-full" src="https://www.frevvo.com/blog/wp-content/uploads/2021/06/1.How-Business-Process-Modeling-Helps-Optimize-Workflows-1.png" alt="model" />
+        </a>
+        <section class="p-5">
+          <a href={ navItemsFirst[ 1 ].href  }>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white"> { navItemsFirst[ 1 ].name } </h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-400 text-justify"> En el sentido amplio del termino, un modelo es “una representacion de un sistema desarrollada para un proposito especıfico”. <br /> Puesto que la finalidad de un modelo es ayudarnos a responder preguntas sobre un determinado sistema, el primer paso en la construccion de un modelo es definir cual es el sistema y cuales son las preguntas.</p>
+          <a href={ navItemsFirst[ 1 ].href } class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none bg-blue-600 hover:bg-blue-700 focus:ring-blue-800">
+            <span> Ver más </span>
+            <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+            </svg>
+          </a>
+        </section>
+      </article>
+      <article class="max-w-sm border rounded-lg shadow bg-gray-800 border-gray-700">
+        <a href={ navItemsFirst[ 2 ].href }>
+          <img class="rounded-t-lg h-64 w-full" src="https://www.researchgate.net/profile/Luis-Escobar-7/publication/326041894/figure/fig1/AS:660388366532609@1534460264963/Redes-de-Petri-para-Mquina-y-Robot.png" alt="model" />
+        </a>
+        <section class="p-5">
+          <a href={ navItemsFirst[ 2 ].href  }>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white"> { navItemsFirst[ 2 ].name } </h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-400 text-justify"> En el sentido amplio del termino, un modelo es “una representacion de un sistema desarrollada para un proposito especıfico”. <br /> Puesto que la finalidad de un modelo es ayudarnos a responder preguntas sobre un determinado sistema, el primer paso en la construccion de un modelo es definir cual es el sistema y cuales son las preguntas.</p>
+          <a href={ navItemsFirst[ 2 ].href } class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none bg-blue-600 hover:bg-blue-700 focus:ring-blue-800">
+            <span> Ver más </span>
+            <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+            </svg>
+          </a>
+        </section>
+      </article>
+    </div>
+  </div>
+</PartialsLayout>

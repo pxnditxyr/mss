@@ -1,0 +1,80 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+
+
+---
+
+<MainLayout title="Modelado">
+  <div id="main" class={ `flex flex-col items-center justify-center py-20 w-full h-screen relative bg-main bg-cover bg-center px-10` }>
+    <article class="flex flex-col items-center justify-center rounded-lg shadow-lg gap-5 bg-white bg-opacity-40 p-10 w-2/3">
+      <section class="flex gap-5">
+        <h1 class="text-3xl font-bold text-slate-800 bg-white p-2 rounded border-none shadow-xl"> Modelación y Simulación </h1>
+      </section>
+      <section class="flex items-center justify-center gap-5 font-bold text-slate-800 bg-white rounded border-none shadow-xl py-4 px-10 md:flex-row flex-col-reverse">
+        <p class="text-justify text-gray-800 text-lg">
+          En la Escuela Militar de Ingenieria, contamos con la materia de Modelación y Simulación, en la cual se nos enseña a modelar sistemas de colas, sistemas de inventarios, sistemas de producción, etc.
+        </p>
+        <img src="https://pbs.twimg.com/profile_images/1125869639928569856/jehIqU14_400x400.jpg" alt="1" class="rounded-lg shadow-lg w-1/2" />
+      </section>
+    </article>
+  </div>
+  <div id="first-partial" class={ `flex items-center justify-center py-20 px-10 w-full h-screen relative bg-first bg-cover bg-center gap-20` }>
+    <div class="flex justify-center items-center relative rounded shadow-lg bg-white p-4">
+      <a href="/first-partial" class="hover:underline">
+        <h1 class="text-4xl font-bold text-slate-600 hover:text-slate-800 transition duration-300 ease-in-out"> Primer Parcial </h1>
+      </a>
+    </div>
+    <article class="flex flex-col justify-center items-center rounded-lg shadow-lg w-1/2 gap-5">
+      <section class="flex justify-center items-center relative rounded-lg shadow-lg bg-white p-4 w-2/3">
+        <img src="https://labsag.co.uk/blog/wp-content/uploads/2021/08/tworeality-oculus-rift.png" alt="1" class="w-full h-full rounded-lg shadow-lg" />
+      </section>
+      <section class="flex justify-center items-center relative rounded-lg shadow-lg bg-white p-4 w-2/3 text-justify text-gray-800">
+        <p>
+          En nuestro 
+          <a href="/first-partial" class="text-blue-500 hover:underline">Primer Parcial</a>
+          Se nos mostro una introduccion a la materia, se nos explico que es un modelo y que es una simulacion, ademas de que se nos mostro ejemplos de como se puede modelar un sistema de colas.
+        </p>
+      </section>
+    </article>
+  </div>
+
+  <div id="second-partial" class={ `flex items-center justify-center py-20 px-10 w-full h-screen relative bg-second bg-cover bg-center gap-20` }>
+    <div class="flex justify-center items-center relative rounded shadow-lg bg-white p-4">
+      <a href="/second-partial" class="hover:underline">
+        <h1 class="text-4xl font-bold text-slate-600 hover:text-slate-800 transition duration-300 ease-in-out"> Segundo Parcial </h1>
+      </a>
+    </div>
+    <article class="flex flex-col justify-center items-center rounded-lg shadow-lg w-1/2 gap-5">
+      <section class="flex justify-center items-center relative rounded-lg shadow-lg bg-white p-4 w-2/3">
+        <img src="http://trucosycursos.es/wp-content/uploads/2020/04/monte00.jpg" alt="1" class="w-full h-full rounded-lg shadow-lg" />
+      </section>
+      <section class="flex justify-center items-center relative rounded-lg shadow-lg bg-white p-4 w-2/3 text-justify text-gray-800">
+        <p>
+          En nuestro 
+          <a href="/second-partial" class="text-blue-500 hover:underline">Segundo Parcial</a>
+          Se nos mostro una introduccion a la materia, se nos explico temas como Automatas Celulares, Heuristica, Sistema de eventos discretos, Generacion de Numeros Aleatorios, Prueba de Poker y Prueba de Kolmogorov, etc.
+        </p>
+      </section>
+    </article>
+  </div>
+  <div id="final-test" class={ `flex items-center justify-center py-20 px-10 w-full h-screen relative bg-final bg-cover bg-center gap-20` }>
+    <div class="flex justify-center items-center relative rounded shadow-lg bg-white p-4">
+      <a href="/final-test" class="hover:underline">
+        <h1 class="text-4xl font-bold text-slate-600 hover:text-slate-800 transition duration-300 ease-in-out"> Examen Final </h1>
+      </a>
+    </div>
+    <article class="flex flex-col justify-center items-center rounded-lg shadow-lg w-1/2 gap-5">
+      <section class="flex justify-center items-center relative rounded-lg shadow-lg bg-white p-4 w-2/3">
+        <img src="https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2023/03/Software-Developer-Programming-Computer.jpeg?fit=1920%2C1281&quality=50&strip=all&ssl=1" alt="1" class="w-full h-full rounded-lg shadow-lg" />
+      </section>
+      <section class="flex justify-center items-center relative rounded-lg shadow-lg bg-white p-4 w-2/3 text-justify text-gray-800">
+        <p>
+          En nuestro 
+          <a href="/final-test" class="text-blue-500 hover:underline">Examen Final</a>
+          Se nos mostro temas como Lenguajes de Proposito general y de simulacion, Validacion de modelos de simulacion, elementos de una simulacion, Simulacion de Montecarlo, Software de modelado, Promodel, Arena, Vensim
+        </p>
+      </section>
+    </article>
+  </div>
+  
+</MainLayout>
